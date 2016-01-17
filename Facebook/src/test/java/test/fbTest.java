@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 /**
  * Created by Pratik on 1/17/2016.
  */
+
 public class fbTest extends Base {
 
     @Test
@@ -15,7 +16,9 @@ public class fbTest extends Base {
         typeByCss("#pass", "sumnima");
         clickByCss("#persist_box");
         clickById("loginbutton");
-        clickByCss("#u_0_11");
+        clickByCss(".linkWrap.noCount>span");
+        clickByCss("._5qtp");
+        typeByCss("._45m_._2vxa", "This is my first automated status");
 
         sleepFor(6);
 

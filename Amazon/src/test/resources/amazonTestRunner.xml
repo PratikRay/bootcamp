@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="FaceBook" parallel="tests">
+<suite name="Amazon" parallel="tests">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="sauselabU"/>
@@ -9,11 +9,11 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="firefox"/>
     <parameter name="browserVersion" value="43"/>
-    <parameter name="url" value="http://www.facebook.com"/>
+    <parameter name="url" value="http://www.Amazon.com"/>
 
     <test name = "amazon Test">
         <classes>
-            <class name="test.fbTest"/>
+            <class name="searcher.item"/>
         </classes>
     </test>
 

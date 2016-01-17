@@ -19,7 +19,7 @@ public class ConnectDB {
 
     public static Properties loadPropertiesFile()throws Exception{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("Generic/lib/MySQL.properties");
+        InputStream ism = new FileInputStream("C:/Users/Pratik/Desktop/bootcamp/Generic/lib/MySQL.properties");
         prop.load(ism);
         ism.close();
 
