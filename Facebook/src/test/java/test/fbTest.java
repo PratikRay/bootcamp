@@ -13,16 +13,12 @@ public class fbTest extends Base {
     public void tester() throws InterruptedException {
 
         typeByCss("#email", "horizen35@gmail.com");
-        typeByCss("#pass", "sumnima");
         clickByCss("#persist_box");
-        clickById("loginbutton");
+        typeByCssThenEnter("#pass", "temppassword");
+       // clickById("loginbutton");
         clickByCss(".linkWrap.noCount>span");
         clickByCss("._5qtp");
         typeByCss("._45m_._2vxa", "This is my first automated status");
-
         sleepFor(6);
-
-
-
     }
 }

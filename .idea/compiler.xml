@@ -22,7 +22,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Cigna" />
         <module name="Generic" />
       </profile>
       <profile default="false" name="Annotation profile for CitiBank" enabled="true">
@@ -53,11 +52,18 @@
         <processorPath useClasspath="true" />
         <module name="CNN" />
       </profile>
+      <profile default="false" name="Annotation profile for Cigna" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Cigna" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
       <module name="bootcamp" target="1.5" />
-      <module name="Cigna" target="1.5" />
+      <module name="Cigna" target="1.8" />
       <module name="CitiBank" target="1.8" />
       <module name="CNN" target="1.8" />
       <module name="Facebook" target="1.8" />
